@@ -26,7 +26,7 @@
 } 
 .header_first_insidepart2_cart {
 	vertical-align: top;
-	background:white url("../images/cart.png") 17px 0px no-repeat;
+	background:white url("../images/cart.png") 10px -5px no-repeat;
 	height:30pt;
 	margin-bottom: 12px;
 	margin-left: 0px;
@@ -36,7 +36,7 @@
 } 
 .header_first_insidepart2_sign {
 	vertical-align: top;
-	background:white url("../images/sign.png") 24px -4px no-repeat;
+	background:white url("../images/sign.png") 23px 1px no-repeat;
 	height:30pt;
 	margin-bottom: 12px;
 	margin-left: 0px;
@@ -46,7 +46,7 @@
 } 
 .header_first_insidepart2_call {
 	vertical-align: top;
-	background:white url("../images/call.png") 26px 2px no-repeat;
+	background:white url("../images/call.png") 21px 0px  no-repeat;
 	height:30pt;
 	margin-bottom: 12px;
 	margin-left: 0px;
@@ -56,7 +56,7 @@
 } 
 .header_first_insidepart2_sell {
 	vertical-align: top;
-	background:white url("../images/sell.png") 56px -7px no-repeat;
+	background:white url("../images/sell.png") 47px 0px no-repeat;
 	height:30pt;
 	margin-bottom: 12px;
 	margin-left: 0px;
@@ -67,9 +67,10 @@
 .cart_style {
     position: relative;
     bottom: -22px;
-    font-size: small;
+    font-size: 10px;
     padding-left: 0px;
     color:#787878;
+    font-family:arial;
 }
 .shopclues-logo {
 	height:38pt;
@@ -78,7 +79,7 @@
 	 height:20pt;
      border:#dcdcdc solid 1px;
      background:white url("../images/search.png") 2px 8px no-repeat;
-     width: 23%;
+     width: 31%;
      color:#4a4a4a;
      vertical-align: inherit;
      margin-left: 0px;
@@ -93,8 +94,8 @@
      border:#dcdcdc solid 1px;
      background-color:white;
      vertical-align: inherit;
-     width: 15%;
-     color:#4a4a4a;
+     width: 17%;
+     color:rgb(181, 181, 174);
      margin-left: -5px;
      margin-right: 0px;
      padding-top: 2px;
@@ -104,7 +105,7 @@
 }   
 .search_button {
 	height:24pt;
-    width: 8%;
+    width: 11%;
     vertical-align: inherit;
     border: 1px solid #1c64a4;
     background: #2375b2;
@@ -128,77 +129,113 @@
 	
 }
 .shop_categories {
-	border-right:#FFFFFF solid 1px;
-	text-align: left;
-    width:13%;
-	font:bolder;
-	color: #fff;
-	padding-top: 8px;
-    padding-bottom: 2px;
-    padding-left: 1px;
-    height: 30pt; 
+	border-right: rgba(255,255,255,0.3) solid 1px;
+    text-align: left;
+    font: 156% "primary";
+    font-size: 14px;
+    font-weight: bold;
+    width: 13%;
+    color: #fff;
+    padding-top: 14px;
+    padding-left: 8px;
+    height: 20pt;
     display: inline-block;
 }
+.shop_categories { 
+	background: #18A7B3 url("../images/sbc.png") 172px 9px no-repeat;
+}
 .whole_sale {
-	border-right:#FFFFFF solid 1px;
-	text-align:left;
-    width:6%;
+	border-right:rgba(255,255,255,0.3) solid 1px;
+    text-align: left;
+    width: 8%;
     font: 13px arial;
-	color: #fff;
-	padding-top: 8px;
-    padding-bottom: 2px;
-    padding-left: 22px;
-    height: 30pt; 
+    color: #fff;
+    padding-bottom: 9px;
+    padding-left: 23px;
+    padding-right: 6px;
+    margin-right: 1px;
+    margin-top: 8px;
+    height: 12pt;
     display: inline-block;
 }
 div.whole_sale::before {
 	content: url("../images/whole.png");
-	margin-left: -22px;
+	margin-left: -20px;
+    margin-right: 4px;
 }
 div.whole_sale::after {
 	content: url("../images/tag.png");
-	margin-left: -22px;
+	margin-left: 6px;
 }
 
 .nrh {
-	border-right:white solid 1px;
-	background: #18A7B3 url("../images/nrh.png") -1px 5px no-repeat;
-	text-align:center;
-    width:4%;
-	font: 13px arial;
-	color: #fff;
-	padding-top: 12px;
-    padding-bottom:2px;
+	border-right:rgba(255,255,255,0.3) solid 1px;
+	background: #18A7B3 url("../images/nrh.png") -2px -3px no-repeat;
+	text-align: center;
+    width: 4%;
+    font: 13px arial;
+    color: #fff;
     padding-right: 4px;
+    padding-top: 6px;
     padding-left: 12px;
-    height: 30pt;
-	display: inline-block;
+    margin-top: 6px;
+    height: 20px;
+    display: inline-block;
 }
-.factory_outlet, .wedding_store, .fitness_store {
-	border-right:white solid 1px;
-	text-align:left;
-    width:8%;
-	font: 13px arial;
-	color: #fff;
-	padding-top: 11px;
-    padding-bottom:2px;
-    padding-left: 25px;
-    padding-right:4px;
-    height: 30pt;
-	display: inline-block;
+.factory_outlet, .gifting_store ,.wedding_store, .fitness_store{
+	border-right:rgba(255,255,255,0.3) solid 1px;
+    text-align: left;
+    width: 6.5%;
+    font: 13px arial;
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    padding-left: 28px;
+    height: 12pt;
+    display: inline-block;
+}
+.offers {
+	width: 6.5%;
+    padding-top: 16px;
+    margin-bottom: -4px;
+    height: 7pt;
+    display: inline-block;
+}
+.robo , .apple , .shopping {
+	width: 6.5%;
+    padding-top: 16px;
+    margin-bottom: -4px;
+    height: 7pt;
+    display: inline-block;
 }
 .factory_outlet {
-	background:#18A7B3 url("../images/factory.png") -3px 5px no-repeat;
+	background:#18A7B3 url("../images/factory.png") -2px 0px no-repeat;
 } 
+.gifting_store {
+background: #18A7B3 url("../images/gift.png") 1px 0px no-repeat;
+}
 .wedding_store {
-background: #18A7B3 url("../images/gift.png") -3px 5px no-repeat;
+	background: #18A7B3 url("../images/wedding.png") -2px 2px no-repeat;
 }
 .fitness_store {
-	background: #18A7B3 url("../images/fitness.png") -3px 5px no-repeat;
+	background: #18A7B3 url("../images/fitness.png") -2px 0px no-repeat;
+}
+.offers {
+	background: #18A7B3 url("../images/offers.png") -2px 0px no-repeat;
+}
+.robo {
+	background: #18A7B3 url("../images/robo.png") -2px 0px no-repeat;
+}
+.apple {
+	background: #18A7B3 url("../images/apple.png") -2px 0px no-repeat;
+}
+.shopping {
+	background: #18A7B3 url("../images/shopping.png") -2px 0px no-repeat;
 }
 
 
-/*.dum {
+.dum {
 	width:100%;
 	height:100%%;
 	display: inline-block;
@@ -289,7 +326,7 @@ li.style_categories {
 }
 a.appliances {
 	text-decoration: none;
-	}*/
+	}
 .wrapper {
 	 border: 0px solid black;
 	 width: auto;
@@ -338,51 +375,55 @@ h2 {
 	margin-top:18px;
 	margin-bottom:18px;
 	margin-right:10px;
-	width: 255px;
-    height:208pt;
-    border:1px solid gray;
+	width: 250px;
+    height:290px;
+    border:1px solid #dcdcdc;
     background-color: white;
-    border: 1px solid black;
+    font-family: Signika, sans-serif;
     cursor:hand;
     cursor: pointer; 
     float:left;
 }
-#body {
-	height:30pt;
+.picmessage {
+	font-family: Signika, sans-serif;
+	height:55px;
 	overflow: hidden;
+	text-transform: capitalize;
 	display: block;
     font-size: 14px;
     color: #434242;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-family:Verdana,Geneva,sans-serif;
+    text-align: center;
     overflow: hidden;
     padding-left: 3px;
  }
  .discount {
-    background-color: #ee1c25;
+   background-color: #ee1c25;
     color: #fff;
     font-size: 17px;
     position: absolute;
-    padding:2px 1px;
-    width: 53px;
+    width: 50px;
     text-align: center;
+    font-family: arial;
+    margin-left: 200px;
  }
-#footer:HOVER{
-	 background-color: #18A7B3 !important;
-	 text-align:center !important;
+.footer:HOVER{
+	 background-color: #18A7B3;
+	 text-align:center;
 }
-#footer {
-   text-align:center !important;
+.footer:before {
+   content: "Shop Now";
+}
+.footer {
+   text-align:center;
    bottom:0;
    width:auto;
    height:26pt; 
    background:#0fc1cf;
-   color:white;
+   color:#ffffff;
    font-size: 17px;
    font-family: 'Signika', sans-serif;
    font-weight: bold;
-   padding-top: 8px;
+   padding-top: 6px;
    overflow: inherit;
    
 }
@@ -390,4 +431,5 @@ h2 {
 	height:143pt;
 	width:200px;
 	overflow: auto;
+	text-align: right;
 }
