@@ -1,5 +1,5 @@
- var addElement = function () { 
-       myVar = setInterval(displayTime, 1000);
+    var addElement = function () { 
+
           
     var picMessage = ["Vheelocityin Blue Lagoon Scooter / Bike Cover For Bajaj Pulsar Rs200",
                      "Combo Of Brio Led Bulb 7W 5W 5W (Pack Of 3)",
@@ -13,11 +13,8 @@
     var pictures = ['Bag.jpg','bulb.jpg','ganesh.jpg','Helmet.jpg','photo2.jpg','photo3.jpg','photo4.jpg','photo5.jpg'];
 
     var discount = [30,40,65,23,80,67,45,56];
+    
 
-               var bodyDiv = document.createElement("div");
-               bodyDiv.setAttribute('class','wrapper');
-               document.body.appendChild(bodyDiv);
-                
                 // for-in loop
           for (var i in picMessage) {
                  alert(i);
@@ -49,17 +46,5 @@
                 
           }
       }
-     function displayTime() {
-        var now = new Date();
-    var hrs = 23 - now.getHours();
-    var mins = 59 - now.getMinutes();
-    var secs = 59 - now.getSeconds();
 
-    document.getElementById('hr1').innerHTML = hrs;
-    document.getElementById('min1').innerHTML = mins;
-    document.getElementById('sec1').innerHTML = secs;
-    
-    }
-
-   
-
+   window.addEventListener('load', addElement, false);
