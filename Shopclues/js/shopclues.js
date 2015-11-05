@@ -1,4 +1,4 @@
- var addElement = function () { 
+var addElement = function () { 
        myVar = setInterval(displayTime, 1000);
           
     var picMessage = ["Vheelocityin Blue Lagoon Scooter / Bike Cover For Bajaj Pulsar Rs200",
@@ -16,7 +16,8 @@
 
                var bodyDiv = document.createElement("div");
                bodyDiv.setAttribute('class','wrapper');
-               document.body.appendChild(bodyDiv);
+               bodyDiv.setAttribute('id','tileContent');
+               document.getElementById("content").appendChild(bodyDiv);
                 
                 // for-in loop
           for (var i in picMessage) {
@@ -24,7 +25,7 @@
 
                 var parentDiv = document.createElement('div');
                 parentDiv.setAttribute('class', 'childclass');
-                document.body.appendChild(parentDiv);
+                bodyDiv.appendChild(parentDiv);
 
                 var newSpan = document.createElement('span');
                 newSpan.textContent=discount[i] + "% off";
@@ -60,6 +61,3 @@
     document.getElementById('sec1').innerHTML = secs;
     
     }
-
-   
-
